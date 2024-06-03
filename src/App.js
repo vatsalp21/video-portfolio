@@ -4,7 +4,6 @@ import {
   faGithub,
   faInstagram,
   faLinkedin,
-  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 import img from "./me.jpg";
@@ -38,7 +37,6 @@ function App() {
                   education
                 </a>
               </li>
-
               <li>
                 <a href="#contact" className="hover:text-black">
                   contact
@@ -60,19 +58,17 @@ function App() {
           ))}
         </div>
       </div>
-      <div className="w-full md:w-2/3 p-8 flex justify-end items-center">
-        <div className="relative">
+      <div className="w-full md:w-2/3 p-8 flex justify-start items-center">
+        <div className="relative w-full max-w-sm h-auto flex items-center justify-start">
           <img
             src={img}
             alt="Modern Renaissance Man"
-            className="w-92 h-92   object-cover"
+            className="object-contain w-full h-auto max-h-screen"
           />
-          <div className="absolute bottom-4 left-4 text-white text-3xl font-bold bg-black bg-opacity-50 p-2">
-            MoDeRn
+          <div className="absolute bottom-4 left-0 text-white text-3xl font-bold bg-black bg-opacity-50 p-2 ml-8">
+            vatsal
             <br />
-            ReNaISaNCE
-            <br />
-            MaN
+            pandey
           </div>
         </div>
       </div>
