@@ -1,14 +1,22 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+
 import img from "./me.jpg";
 
 // Replace the links with your actual URLs
 const icons = [
-  { icon: faInstagram, link: "https://instagram.com" },
-  { icon: faYoutube, link: "https://youtube.com" },
-  { icon: faLink, link: "https://yourwebsite.com" },
+  { icon: faInstagram, link: "https://www.instagram.com/vatsalpandey_/" },
+  { icon: faGithub, link: "https://github.com/vatsalp21" },
+  {
+    icon: faLinkedin,
+    link: "https://www.linkedin.com/in/vatsal-pandey-744652249/",
+  },
 ];
 
 function App() {
@@ -16,8 +24,8 @@ function App() {
     <div className="min-h-screen bg-white text-gray-900 font-inconsolata flex flex-col md:flex-row">
       <div className="w-full md:w-1/3 p-8 flex flex-col justify-between">
         <div>
-          <div className="text-2xl font-bold">gakuyen</div>
-          <div className="text-gray-500">modern renaissance man</div>
+          <div className="text-2xl font-bold">vatsal</div>
+          <div className="text-gray-500">creative visual artist</div>
           <nav className="mt-8">
             <ul className="space-y-2">
               <li>
@@ -30,11 +38,7 @@ function App() {
                   education
                 </a>
               </li>
-              <li>
-                <a href="#store" className="hover:text-black">
-                  store
-                </a>
-              </li>
+
               <li>
                 <a href="#contact" className="hover:text-black">
                   contact
